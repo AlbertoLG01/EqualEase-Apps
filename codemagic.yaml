@@ -1,5 +1,4 @@
-workflows:
-  version: 
+workflows: 
   build:
     name: Build
     scripts:
