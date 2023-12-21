@@ -2,6 +2,7 @@ workflows:
   build:
     name: Build
     scripts:
+      - flutter upgrade
       - flutter pub get
       - flutter packages get
       - flutter build ios
