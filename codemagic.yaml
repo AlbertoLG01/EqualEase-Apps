@@ -1,0 +1,8 @@
+workflows:
+  version: 2
+  build:
+    name: Build
+    scripts:
+      - flutter packages get
+      - flutter build ios
+      - flutter build apk
